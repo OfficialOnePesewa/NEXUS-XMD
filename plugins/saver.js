@@ -46,7 +46,7 @@ cmd({
     await _0x2ecf0f.sendMessage(_0x2b9c8c.sender, _0x4acfdc, {
       'quoted': _0x3c0350
     });
-    await _0x4f53e2("✅ Nexus Xmd Successfully saved and sent the media file.");
+    await _0x4f53e2("✅ 𝐁.𝐌.𝐁-𝐗𝐌𝐃 Successfully saved and sent the media file.");
   } catch (_0x1791ca) {
     console.error(_0x1791ca);
     _0x4f53e2("❌ Failed to save and send the media. Please try again.");

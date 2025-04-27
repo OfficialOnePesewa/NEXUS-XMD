@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Define the settings message with the correct boolean checks
-        let envSettings = `╭〔 *【NEXUS 𝐗𝐌𝐃】* 〕⊷
+        let envSettings = `╭〔 *【NEXUS-𝐗𝐌𝐃】* 〕⊷
 ┃▸╭───────────
 ┃▸┃๏ *ENV SETTINGS 🗿*
 ┃▸└───────────···๏
@@ -48,15 +48,15 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/fvp9bk.jpg' }, // Image URL
+                image: { url: 'https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg'}, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363352087070233@newsletter',
-                        newsletterName: "𝐓𝐇𝐄 NEXUS 𝐗𝐌𝐃 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
+                        newsletterJid: '120363288304618280@newsletter',
+                        newsletterName: "𝐓𝐇𝐄 NEXUS-XMD 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒🥰",
                         serverMessageId: 143
                     }
                 }
@@ -66,7 +66,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send an audio file
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/wify3q.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });

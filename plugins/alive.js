@@ -15,17 +15,17 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Generate system status message
         const status = `
 ╭──〔NEXUS-XMD〕───·๏
-┃🛸┃• *⏳ Uptime*:  ${runtime(process.uptime())} 
-┃🛸┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
-┃🛸┃• *⚙️ HostName*: ${os.hostname()}
-┃🛸┃• *👨‍💻 Creator*: pkdriller 
-┃🛸┃• *🧬 Version*: 1.0.0
+┃🪀┃• *⏳ Uptime*:  ${runtime(process.uptime())} 
+┃🪀┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
+┃🪀┃• *⚙️ HostName*: ${os.hostname()}
+┃🪀┃• *👨‍💻 Creator*: pkdriller 
+┃🪀┃• *🧬 Version*: 4.0.0
 ╰──────────────┈⊷
 > © NEXUS-𝐗𝐌𝐃`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/x9iv4u.jpg` },  
+            image: { url: `https://i.ibb.co/Kzbdr49w/nexus-xmd.jpg` },  
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],

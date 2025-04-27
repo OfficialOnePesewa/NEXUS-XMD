@@ -1,6 +1,6 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=NEXUS-XMD" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://files.catbox.moe/u4rqiq.jpg'/></a>
+<a><img src='https://i.imgur.com/iEVtMrH.jpeg'/></a>
 
 <p align="center">
   <a href="https://github.com/pkdriller"><img title="Developer" src="https://img.shields.io/badge/Author-NEXUS%20XMD-FF00FF.svg?style=big-square&logo=github" /></a>
@@ -38,7 +38,7 @@ href="https://github.com/pkdriller/NEXUS-XMD/graphs/commit-activity"><img height
  
 
   > **⚠️ OPTION ONE**
-  <a href='https://nexus-xmd-piar.onrender.com' target="_blank">
+  <a href='https://nexus-xmd-pair-code.onrender.com' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE_1-800080?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
 

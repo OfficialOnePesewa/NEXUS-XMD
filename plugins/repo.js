@@ -4,7 +4,7 @@
 const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
-    pattern: "pk",
+    pattern: "repo",
     alias: ["sc","repo","info"],
     desc: "bot repo",
     react: "🤖",
@@ -16,16 +16,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *pkdriller*
+*|* *bmbxmd*
 
 > *pkdriller REPO:*
-*|* https://github.com/pkdriller/NEXUS-XMD
+*|* https://github.com/pkdriller/B.M.B-XMD
 
 > *SUPPORT GROUP:*
-*|* Follow the PKDRILLER 🇰🇪TECH 🇰🇪 channel on WhatsApp: https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x
+*|* Follow the B.M.B 🇹🇿TECH 🇹🇿 channel on https://whatsapp.com/channel/0029VawO6hgF6sn7k3SuVU3z
 *╰──────────────●●►*
 
-> *CREATED BY PKDRILLER*
+> *CREATED BY 🔥B.M.B-XMD🔥*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
@@ -34,16 +34,16 @@ await conn.sendMessage(from, { text: repo ,
     forwardingScore: 999,
     isForwarded: false,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363288304618280@newsletter',
-      newsletterName: "pkdriller 🇰🇪",
+      newsletterJid: '120363382023564830@newsletter',
+      newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳🇹🇿",
       serverMessageId: 999
     },
 externalAdReply: { 
-title: 'pldriller🇰🇪',
+title: '𝙱.𝙼.𝙱-𝚇𝙼𝙳🇹🇿',
 body: `${pushname}`,
 mediaType: 1,
-sourceUrl: "https://github.com/pkdriller/PK-XMD" ,
-thumbnailUrl: "https://files.catbox.moe/46ebpi.jpeg" ,
+sourceUrl: "https://github.com/bmbxmd/B.M.B-XMD" ,
+thumbnailUrl: "https://files.catbox.moe/lph7xd.jpg" ,
 renderLargerThumbnail: true,
 showAdAttribution: true
 }
@@ -62,10 +62,10 @@ const config = require('../config');
 const { cmd } = require('../command');
 
 cmd({
-    pattern: "pk",
+    pattern: "repo",
     alias: ["repo", "sc", "info"],
     desc: "Fetch information about a GitHub repository.",
-    react: "🎗️",
+    react: "🔥",
     category: "info",
     filename: __filename,
 },
@@ -86,18 +86,18 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 NEXUS-XMD 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!😇👑* 
+        const formattedInfo = `*𝐇𝐄𝐋𝐋𝐎 𝐓𝐇𝐄𝐑𝐄 🔥 NEXUS-XMD 🔥 𝐖.𝐀 𝐁𝐎𝐓 𝐔𝐒𝐄𝐑!* 
 
-> *a whatsapp bot that enhance your experience with amazing features,developed by pkdriller 🇰🇪.*🤍
+> *a whatsapp bot that enhance your experience with amazing features,developed by PKDRILLER.*🔥
 
-*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 NEXUS-𝐗𝐌𝐃🫶* 
+*𝐓𝐇𝐀𝐍𝐊𝐒 𝐅𝐎𝐑 𝐔𝐒𝐄𝐈𝐍𝐆 🔥NEXUS-𝐗𝐌𝐃🔥* 
 
 > *ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ🌟🍴*
 
-https://github.com/pkdriller/NEXUS-XMD
+https://github.com/pkdriller/NEXUS-XMD 
 ──────────────────
 ${readMore}
-\`BOT NAME:\`🇰🇪
+\`BOT NAME:\`🪀
 > ${repoData.name}
 
 \`OWNER NAME:\`👨‍💻
@@ -112,11 +112,11 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ pkdriller ᴛᴇᴄʜ* 🎐`;
+\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ NEXUS-XMD* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/46ebpi.jpeg` },
+            image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -124,7 +124,7 @@ ${readMore}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: '☇ pkdriller suppσrt  ⃪🤖͎᪳᪳𝆺𝅥',
+                    newsletterName: '☇ nexus-xmd suppσrt  ⃪🔥𝆺𝅥',
                     serverMessageId: 143
                 }
             }
@@ -132,7 +132,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/5ho5yu.mp3' },
+            audio: { url: 'https://files.catbox.moe/1uh5pq.mp3' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 

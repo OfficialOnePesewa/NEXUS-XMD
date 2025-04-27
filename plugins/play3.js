@@ -48,7 +48,7 @@ _Reply to this message with 1 or 2 to download._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363288304618280@newsletter',
-                newsletterName: 'NEXUS-XMD',
+                newsletterName: 'SMART-TECH TRENDS',
                 serverMessageId: 143
             }
         };
@@ -149,7 +149,7 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363288304618280@newsletter',
-                newsletterName: 'NEXUS-XMD',
+                newsletterName: 'SMART-TECH TRENDS',
                 serverMessageId: 143
             }
         };

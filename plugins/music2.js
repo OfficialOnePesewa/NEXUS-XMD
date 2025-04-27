@@ -3,7 +3,7 @@ const yts = require("yt-search");
 const axios = require("axios");
 
 cmd({
-  pattern: "play7",
+  pattern: "play1",
   alias: ["yt", "song", "video", "audio"],
   desc: "Download YouTube videos",
   category: "download",
@@ -45,7 +45,8 @@ cmd({
       ago: "Unknown"
     };
 
-    const caption = `╭━━━〔 *YT DOWNLOADER* 〕━━━⊷\n`
+    const caption = 
+        `╭━━━〔 *YT DOWNLOADER* 〕━━━⊷\n`
       + `┃ 📌 *Title:* ${ytData.title}\n`
       + `┃ 🎭 *Channel:* ${ytData.author.name || "Unknown"}\n`
       + `┃ 👁‍🗨 *Views:* ${ytData.views}\n`
@@ -59,7 +60,7 @@ cmd({
       + `📌 *Reply with the number to download in your choice.*`;
 
     const sentMsg = await conn.sendMessage(from, {
-      image: { url: ytData.thumbnail || "https://i.ibb.co/nMT095YD/nexus-xmd.jpg" },
+      image: { url: ytData.thumbnail || "https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg" },
       caption: caption,
       contextInfo: {
         mentionedJid: [m.sender],
@@ -67,7 +68,7 @@ cmd({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "NEXUS-XMD",
+          newsletterName: "💥 NEXUS-XMD 💥",
           serverMessageId: 143
         }
       }
@@ -92,7 +93,7 @@ cmd({
           case "1":
             await conn.sendMessage(senderID, {
               video: { url: downloadLink },
-              caption: "*NEXUS-XMD*"
+              caption: "*𝐁.𝐌.𝐁-𝐗𝐌𝐃*"
             }, { quoted: receivedMsg });
             break;
 
@@ -101,7 +102,7 @@ cmd({
               document: { url: downloadLink },
               mimetype: "video/mp4",
               fileName: `${ytData.title}.mp4`,
-              caption: "*NEXUS-XMD*"
+              caption: "*🔥 NEXUS-XMD 🔥*"
             }, { quoted: receivedMsg });
             break;
 

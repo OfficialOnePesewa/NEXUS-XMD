@@ -52,11 +52,11 @@ cmd({
     const _0x2e869c = await _0x13d51a.json();
     if (_0x2e869c.code) {
       const _0x25f740 = _0x2e869c.code;
-      const _0xeea95a = "*⚡Pairing Code For nexus-xmd 🗿*\n\n🪀 notification has been sent to your WhatsApp. Please check your phone and copy this code to pair it and get your *NEXUS-XMD* session id.\n\n*🔢 Pairing Code* : *" + _0x25f740 + "*\n\n> *_Copy it from below message 👇🏻_*";
+      const _0xeea95a = "*⚡Pairing Code For nexus xmd 🗿*\n\n🪀 notification has been sent to your WhatsApp. Please check your phone and copy this code to pair it and get your *NEXUS-XMD* session id.\n\n*🔢 Pairing Code* : *" + _0x25f740 + "*\n\n> *_Copy it from below message 👇🏻_*";
       try {
         await _0x3f368b.sendMessage(_0x2fe294.key.remoteJid || _0x2fe294.from, {
           'image': {
-            'url': "https://i.ibb.co/0p5JWGfj/nexus-xmd.jpg"
+            'url': "https://i.ibb.co/BY2HCkh/nexus-xmd.jpg"
           },
           'caption': _0xeea95a
         }, {
@@ -108,13 +108,13 @@ cmd({
       return await _0x50e2bb("*Example -* .pair 25575653xxxx");
     }
     const _0x5aa4f0 = require('node-fetch');
-    const _0x3a87c7 = await _0x5aa4f0('https://nexus-xmd-piar.onrender.com/pair?phone=' + _0x4de0bb);
+    const _0x3a87c7 = await _0x5aa4f0('https://vortex-xmd-session-site.onrender.com/pair?phone=' + _0x4de0bb);
     const _0x15aa92 = await _0x3a87c7.json();
     if (!_0x15aa92 || !_0x15aa92.code) {
       return await _0x50e2bb("Failed to retrieve pairing code. Please check the phone number and try again.");
     }
     const _0x27dff2 = _0x15aa92.code;
-    await _0x50e2bb("> *NEXUS PAIR COMPLETED*\n\n*Your pairing code is:* " + _0x27dff2);
+    await _0x50e2bb("> *𝐁.𝐌.𝐁-𝐗𝐌𝐃 PAIR COMPLETED*\n\n*Your pairing code is:* " + _0x27dff2);
     await _0x566978(0x7d0);
     await _0x50e2bb('' + _0x27dff2);
   } catch (_0x53bf58) {

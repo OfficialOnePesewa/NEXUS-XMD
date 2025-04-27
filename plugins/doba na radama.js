@@ -3,7 +3,7 @@ const yts = require('yt-search')
 const axios = require("axios");
 
 cmd({
-    pattern: "play5",
+    pattern: "play1",
     desc: "To download songs.",
     react: "🎵",
     category: "download",
@@ -61,8 +61,8 @@ try {
 //====================video_dl=======================
 
 cmd({
-    pattern: "darama5",
-    alias: ["video5"],
+    pattern: "darama",
+    alias: ["video"],
     desc: "To download videos.",
     react: "🎥",
     category: "download",

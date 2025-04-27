@@ -7,7 +7,7 @@ const axios = require('axios')
 cmd({
   pattern: "quran",
   alias: ["surah"],
-  react: "🇰🇪",
+  react: "🙏",
   desc: "Get Quran Surah details and explanation.",
   category: "main",
   filename: __filename
@@ -59,7 +59,7 @@ ${translatedTafsirEnglish.text}`;
     await conn.sendMessage(
       from,
       {
-        image: { url: `https://files.catbox.moe/tsjtpi.jpeg` },
+        image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
         caption: quranSurah,
         contextInfo: {
           mentionedJid: [m.sender], 
@@ -67,7 +67,7 @@ ${translatedTafsirEnglish.text}`;
           isForwarded: true,   
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363288304618280@newsletter', 
-            newsletterName: 'NEXUSXMD', 
+            newsletterName: 'NEXUS-XMD', 
             serverMessageId: 143
           }
         }
@@ -95,7 +95,7 @@ cmd({
     alias: ["surahmenu", "surahlist"],
     desc: "menu the bot",
     category: "menu",
-    react: "🇰🇪",
+    react: "🙏",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -449,7 +449,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/tsjtpi.jpeg` },
+                image: { url: `https://i.ibb.co/W4xhtdW8/nexus-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -457,7 +457,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: 'NEXUSXMD',
+                        newsletterName: 'NEXUS-XMD',
                         serverMessageId: 143
                     }
                 }
